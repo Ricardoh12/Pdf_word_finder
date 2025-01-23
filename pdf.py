@@ -2,11 +2,10 @@ import os
 from PyPDF2 import PdfReader
 import json
 
-file_name = 'data_files.json'
-with open(file_name, 'r') as file:
-    data = json.load(file)
+path = input("File path")
 
-path = data['entry_value']
+
+
 
 
 
